@@ -12,7 +12,7 @@ The iOS XCTest runner accepts HTTP requests, processes commands, and stays alive
 
 ```json
 {
-  "command": "tap|type|swipe|snapshot|findText|listTappables|shutdown",
+  "command": "tap|type|swipe|snapshot|findText|listTappables|rect|shutdown",
   "appBundleId": "com.apple.Preferences",
   "text": "Apps",
   "x": 100,
@@ -29,6 +29,7 @@ Fields by command:
 - `snapshot`: optional `options`.
 - `findText`: requires `text`.
 - `listTappables`: no extra fields.
+- `rect`: requires `text`, returns the element frame.
 - `shutdown`: no extra fields.
 
 ## Response
@@ -54,3 +55,4 @@ Data payload may include:
 - `found`: boolean (for `findText`)
 - `items`: array of strings (for `listTappables`)
 - `tree`: snapshot nodes (for `snapshot`)
+- `rect`: element frame (for `rect`)
