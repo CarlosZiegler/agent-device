@@ -45,6 +45,7 @@ Provide robust element-level interactions for AI agents on iOS by combining a fa
 ## Notes
 - Prebuilt runners can be distributed for simulators, but are sensitive to Xcode/runtime versions.
 - Real devices always need user signing.
+- Real device support (including snapshots) is on the roadmap.
 
 ## References
 - Appium’s XCUITest driver uses `build-for-testing` + `test-without-building` and supports prebuilt runners for faster startup.
