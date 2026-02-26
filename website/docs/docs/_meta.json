@@ -1,52 +1,15 @@
 [
-  {
-    "name": "introduction",
-    "type": "file",
-    "label": "Introduction"
-  },
-  {
-    "name": "installation",
-    "type": "file",
-    "label": "Installation"
-  },
-  {
-    "name": "quick-start",
-    "type": "file",
-    "label": "Quick Start"
-  },
-  {
-    "name": "commands",
-    "type": "file",
-    "label": "Commands"
-  },
-  {
-    "name": "batching",
-    "type": "file",
-    "label": "Batching"
-  },
-  {
-    "name": "selectors",
-    "type": "file",
-    "label": "Selectors"
-  },
-  {
-    "name": "sessions",
-    "type": "file",
-    "label": "Sessions"
-  },
-  {
-    "name": "replay-e2e",
-    "type": "file",
-    "label": "Replay & E2E (Experimental)"
-  },
-  {
-    "name": "snapshots",
-    "type": "file",
-    "label": "Snapshots"
-  },
-  {
-    "name": "known-limitations",
-    "type": "file",
-    "label": "Known Limitations"
-  }
+  { "name": "introduction", "type": "file", "label": "Introduction" },
+  { "name": "installation", "type": "file", "label": "Installation" },
+  { "name": "quick-start", "type": "file", "label": "Quick Start" },
+  { "name": "commands", "type": "file", "label": "Commands" },
+  { "name": "batching", "type": "file", "label": "Batching" },
+  { "name": "selectors", "type": "file", "label": "Selectors" },
+  { "name": "sessions", "type": "file", "label": "Sessions" },
+  { "name": "replay-e2e", "type": "file", "label": "Replay & E2E (Experimental)" },
+  { "name": "snapshots", "type": "file", "label": "Snapshots" },
+  { "name": "skills", "type": "file", "label": "Skills" },
+  { "name": "dogfood", "type": "file", "label": "Dogfood" },
+  { "name": "real-world-example", "type": "file", "label": "Real-World Example" },
+  { "name": "known-limitations", "type": "file", "label": "Known Limitations" }
 ]
