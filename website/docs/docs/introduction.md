@@ -11,7 +11,7 @@ title: Introduction
 - Session-aware workflows and replay
 
 If you know `agent-browser`, this is the mobile-native counterpart for iOS/Android UI automation.
-For exploratory QA and bug-hunting workflows, see `skills/dogfood/SKILL.md` in this repository.
+For exploratory QA and bug-hunting workflows, see the [Dogfood](/docs/dogfood) guide. To learn about the skills system, see [Skills](/docs/skills).
 
 ## What it’s good at
 
